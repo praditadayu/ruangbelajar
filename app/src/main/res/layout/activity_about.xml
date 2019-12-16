@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".AboutActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruang Belajar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/judul"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/ulan"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/about"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/dayu"
+        android:layout_toRightOf="@+id/ulan"
+        android:layout_below="@+id/judul"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/about"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ulan"
+        android:textColor="#fff"
+        android:id="@+id/ulanname"
+        android:layout_marginLeft="9dp"
+        android:text="Ni Putu Nirmala Dewi W"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/ulanname"
+        android:id="@+id/ciprut"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/about"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/ciprutname"
+        android:layout_below="@+id/ciprut"
+        android:layout_marginLeft="32dp"
+        android:text="Putu Ayu Citra Pratiwi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_below="@id/dayu"
+        android:layout_marginRight="40dp"
+        android:id="@+id/dayuname"
+        android:layout_alignParentRight="true"
+        android:text="Ida Ayu Pradita Dewi"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/dayuname"
+        android:layout_toRightOf="@+id/ciprut"
+        android:id="@+id/ratna"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/about"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_below="@id/ratna"
+        android:layout_marginRight="40dp"
+        android:id="@+id/ratnaname"
+        android:layout_alignParentRight="true"
+        android:text="Ni Kadek Ratna Sari"/>
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/back"
+        android:background="@drawable/back"/>
+
+</RelativeLayout>

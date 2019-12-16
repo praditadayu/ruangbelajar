@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Kuis Pilihan Ganda</string>
+    <string name="categories">Categories</string>
+    <string name="grid_image">Grid Image</string>
+    <string name="share_with">Share with</string>
+
+    <string name="matematika_categories">Matematika</string>
+    <string name="ipa_categories">IPA</string>
+    <string name="ips_categories">IPS</string>
+    <string name="bahasaindonesia_categories">Bahasa Indonesia</string>
+    <string name="bahasabali_categories">Bahasa Bali </string>
+    <string name="bahasainggris_categories">Bahasa Inggris</string>
+
+    <string-array name="categories_title">
+        <item>@string/matematika_categories</item>
+        <item>@string/ipa_categories</item>
+        <item>@string/ips_categories</item>
+        <item>@string/bahasaindonesia_categories</item>
+        <item>@string/bahasabali_categories</item>
+        <item>@string/bahasainggris_categories</item>
+    </string-array>
+
+    <string name="matematika">matematika</string>
+    <string name="ipa">ipa</string>
+    <string name="ips">ips</string>
+    <string name="bahasaindonesia">bahasaindonesia</string>
+    <string name="bahasabali">bahasabali</string>
+    <string name="bahasainggris">bahasainggris</string>
+
+    <string-array name="categories_ID">
+        <item>@string/matematika</item>
+        <item>@string/ipa</item>
+        <item>@string/ips</item>
+        <item>@string/bahasaindonesia</item>
+        <item>@string/bahasabali</item>
+        <item>@string/bahasainggris</item>
+    </string-array>
+
+    <string name="email">Your E-Mail</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="logout">Logout</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Pilih Kelas :</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+</resources>
